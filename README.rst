@@ -2,7 +2,12 @@
 timezone
 ========
 
-Formula to configure timezone.
+Formula to configure timezone for multiple operating systems.
+
+Supported OS:
+  - Red Hat
+  - Windows
+  - SLES
 
 .. note::
 
@@ -25,7 +30,7 @@ Defaults
 
 Default values are:
 
-timezone: 'Europe/Berlin'
+timezone: 'America/Chicago'
 utc: True
 
 See timezone/pillar.example.
